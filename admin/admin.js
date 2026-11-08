@@ -1,4 +1,4 @@
-const API = 'https://nexai-backend-production-5e36.up.railway.app';
+const API = '';
 const KEY_RE=/^[A-Z0-9]{5}$/;
 let adminSecret='', allLicenses=[], currentFilter='all', createdKeys=[], qty=1, dateMode='auto', validity=1, maxDev=1;
 const esc=t=>String(t??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));

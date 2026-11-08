@@ -16,7 +16,7 @@ const VIRAL_VIDEOS = [
   { n: 13, title: "TV móvel: o achadinho que está viralizando", url: 'https://vt.tiktok.com/ZSbaQpFjg/' }
 ];
 
-const VV_API = (window.NexSession && NexSession.API_BASE) || 'https://nexai-backend-production-5e36.up.railway.app';
+const VV_API = (window.NexSession && NexSession.API_BASE) || '';
 const VV_LOADING_MS = 1500;
 const VV_REFRESH_AFTER_MS = 60 * 1000;
 

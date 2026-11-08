@@ -2,7 +2,7 @@
 
 const Session = (() => {
 
-  const API_BASE    = 'https://nexai-backend-production-5e36.up.railway.app';
+  const API_BASE    = '';
   const TOKEN_KEY   = 'nex_session_token';
   const EXPIRY_KEY  = 'nex_session_expiry';
   const TERMS_KEY   = 'nex_terms_accepted';
